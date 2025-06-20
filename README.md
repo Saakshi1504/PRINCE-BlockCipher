@@ -6,11 +6,11 @@ The PRINCE block cipher is a modern lightweight symmetric-key encryption algorit
 * Algorithm: Implements the PRINCE block cipher (64-bit block size, 128-bit key).
 * Language: Designed using Verilog HDL.
 * Structure: This implementation is modular, breaking down the PRINCE cipher into its core components. It includes dedicated modules for:
-1. Round Constant Block: Generates and applies the round-dependent constants.
-2. S-Block: Implements the non-linear substitution layer (S-box operations).
-3. M-Block (M-matrix): Implements the linear diffusion layer.
-4. M' Block (M-prime matrix): Implements the reverse linear diffusion layer, utilized for decryption or specific PRINCE operations.
-5. Inverse Block: Implements the inverse of the non-linear substitution layer.
+* Round Constant Block: Generates and applies the round-dependent constants.
+* S-Block: Implements the non-linear substitution layer (S-box operations).
+* M-Block (M-matrix): Implements the linear diffusion layer.
+* M' Block (M-prime matrix): Implements the reverse linear diffusion layer, utilized for decryption or specific PRINCE operations.
+* Inverse Block: Implements the inverse of the non-linear substitution layer.
 * Key Schedule: Includes the necessary key schedule generation for PRINCE.
 * Functional Verification: A comprehensive testbench is provided to verify the correctness of the encryption process.
 
